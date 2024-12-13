@@ -75,7 +75,7 @@ Installation
 
 Clone the repository:
 
-git clone:
+git clone:https://github.com/SnehaChaursia/Calculator-Game.git
 
 Navigate to the project directory:
 
