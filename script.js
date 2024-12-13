@@ -10,5 +10,11 @@ function clear() {
    
 }
 function calculate(){
- input.value=eval(input.value);
+    try{
+
+        input.value=eval(input.value);
+    }
+    catch{
+        input.value="error";
+    }
 }
