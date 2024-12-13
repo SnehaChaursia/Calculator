@@ -1,95 +1,87 @@
-# Calculator-Game
-Calculator Application
+# 📊 Calculator-Game
 
-Overview
+## 🎮 Calculator Application
 
-This project is a visually appealing calculator application designed to perform basic arithmetic operations and includes functionality for percentage calculations and number formatting. The calculator features a user-friendly interface with modern design aesthetics.
+### **🔄 Overview**
+This project is a visually appealing calculator application designed to perform basic arithmetic operations, along with functionality for percentage calculations and number formatting. It features a user-friendly interface with modern and intuitive design aesthetics.
 
+---
 
+### **🔢 Features**
 
-Features
+#### **➕ Arithmetic Operations**
+- **Addition** (+)
+- **Subtraction** (-)
+- **Multiplication** (*)
+- **Division** (/)
 
-Arithmetic Operations
+#### **🔄 Special Functions**
+- **Percentage Calculation** (%)
+- **Clear All Input** (AC)
+- **Delete Last Digit** (DEL)
+- **Double Zero Input** (00)
 
-Addition (+)
+#### **🔐 Additional Input Options**
+- **Decimal Point** (.)
+- **Numbers** (0-9)
 
-Subtraction (-)
+#### **🔗 Responsive Buttons**
+- Clearly labeled and color-coded buttons for intuitive interaction.
 
-Multiplication (*)
+---
 
-Division (/)
+### **📖 How to Use**
 
-Special Functions
+#### **🔢 Basic Usage**
+1. Click the buttons to input numbers and operations.
+2. Use `=` to calculate the result.
 
-Percentage calculation (%)
+#### **🔒 Clearing Input**
+- `AC` clears all input and resets the calculator.
+- `DEL` removes the last entered digit.
 
-Clear all input (AC)
+#### **📊 Percentage and Decimal Calculations**
+- Use `%` for percentage calculations.
+- Use `.` for decimal numbers.
 
-Delete last digit (DEL)
+#### **🗐 Formatting Input**
+- Use `00` to quickly input double zero.
 
-Double zero input (00)
+---
 
-Additional Input Options
+### **🛠️ Technologies Used**
+- **HTML**: Provides the structure of the calculator.
+- **CSS**: Ensures styling and responsive layout.
+- **JavaScript**: Powers the functionality and interactivity.
 
-Decimal point (.)
+---
 
-Numbers (0-9)
+### **🚀 Installation**
 
-Responsive Buttons
+#### **🔧 Clone the Repository**
+```bash
+$ git clone https://github.com/SnehaChaursia/Calculator-Game.git
+```
 
-Clearly labeled and color-coded buttons for easy interaction.
+#### **🏠 Navigate to the Project Directory**
+```bash
+$ cd calculator
+```
 
-How to Use
+#### **🔄 Run the Application**
+- Open `index.html` in your browser to start using the calculator.
 
-Basic Usage:
+---
 
-Click the buttons to input numbers and operations.
+### **😉 Future Enhancements**
+- Add **scientific calculator functions**.
+- Improve **accessibility** for screen readers.
+- Implement **keyboard support** for number and operator input.
 
-Use = to calculate the result.
+---
 
-Clearing Input:
+>
 
-AC clears all input and resets the calculator.
-
-DEL removes the last entered digit.
-
-Percentage and Decimal Calculations:
-
-Use % for percentage calculations.
-
-Use . for decimal numbers.
-
-Formatting Input:
-
-Use 00 to quickly input double zero.
-
-Technologies Used
-
-HTML: Structure of the calculator.
-
-CSS: Styling and layout.
-
-JavaScript: Functionality and interactivity.
-
-Installation
-
-Clone the repository:
-
-git clone:https://github.com/SnehaChaursia/Calculator-Game.git
-
-Navigate to the project directory:
-
-cd calculator
-
-Open index.html in your browser to run the application.
-
-Future Enhancements
-
-Add scientific calculator functions.
-
-Improve accessibility for screen readers.
-
-Implement keyboard support for number and operator input.
 
 
 ![Screenshot 2024-12-13 114111](https://github.com/user-attachments/assets/a93ce118-18f2-4b1c-b655-6f1e9af31aa5)
