@@ -10,36 +10,37 @@
     <div class="container">
         <input type="text" placeholder="0" id="inputbox">
         <div>
-           <button class="operators">AC</button>
-           <button class="operators">DEL</button>
-           <button class="operators">00</button> 
-           <button class="operators">/</button>
+           <button onclick="clearresult()" class="operators">AC</button>
+           <button onclick="clear()" class="operators">DEL</button>
+           <button onclick="appendvalue('00')" class="operators">00</button> 
+           <button onclick="appendvalue('/')" class="operators">/</button>
         </div>
         <div>
-           <button>7</button>
-           <button>8</button>
-           <button>9</button>
-           <button class="operators">*</button>   
+           <button onclick="appendvalue(7)">7</button>
+           <button onclick="appendvalue(8)">8</button>
+           <button onclick="appendvalue(9)">9</button>
+           <button onclick="appendvalue('*')" class="operators">*</button>   
         </div>
         <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="operators">-</button>
+            <button onclick="appendvalue(4)">4</button>
+            <button onclick="appendvalue(5)">5</button>
+            <button onclick="appendvalue(6)">6</button>
+            <button onclick="appendvalue('-')" class="operators">-</button>
         </div>
 
         <div>
-            <button>3</button>
-            <button>2</button>
-            <button>1</button>
-            <button class="operators">+</butoon>
+            <button onclick="appendvalue(3)">3</button>
+            <button onclick="appendvalue(2)">2</button>
+            <button onclick="appendvalue(1)">1</button>
+            <button  onclick="appendvalue('+')"class="operators">+</butoon>
             </div>
         <div>
-            <button>%</button>
-            <button>.</button>
-            <button>0</button>
-            <button class="operators">=</button>
+            <button onclick="appendvalue('%')">%</button>
+            <button onclick="appendvalue('.')">.</button>
+            <button onclick="appendvalue(0)">0</button>
+            <button onclick="calculate()" class="operators">=</button>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
